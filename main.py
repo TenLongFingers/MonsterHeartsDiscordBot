@@ -3,7 +3,7 @@ import os
 import discord
 from discord.ext import commands
 import string
-from keep_alive import keep_alive
+# from keep_alive import keep_alive
 from custom_modules.database_handler_functions import character_list_handler, character_sheet_handler, new_character_handler, delete_character_handler, add_condition_handler, get_conditions_handler, delete_condition_handler, new_npc_handler, delete_npc_handler
 from custom_modules.dice_roller_handlers import get_character_stat_handler
 from custom_modules.dice_roller import roll_command
@@ -394,5 +394,5 @@ async def roll(ctx, *args):
   await ctx.send(response)
 
 
-keep_alive()  #keeps the bot alive
+# keep_alive()  #keeps the bot alive
 bot.run(os.getenv('TOKEN'))

@@ -1,0 +1,8 @@
+!hello = (mocked out, just needs the string updated with instructions. might not even keep this one.)
+!help = (no function yet)
+!new_character = (no function yet but is mocked out)
+!new_npc = (no function yet)
+!get_characters = get_characters
+!get_npcs = (no function yet)
+!stat_block {first_name} = get_character_stats (mocked out but needs to be built in database_functions)
+!roll = partially built under "Rolling function" comment. Doesn't allow for modifiers yet.
